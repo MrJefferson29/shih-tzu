@@ -84,7 +84,7 @@ const Delivery = () => {
 
       <SubTitle>General Airline Requirements</SubTitle>
       <List>
-        <ListItem>The puppy must be at least 6 weeks and 4 days old.</ListItem>
+        <ListItem>The puppy must be at least 8 weeks and 4 days old.</ListItem>
         <ListItem>A veterinarian health/acclimation certificate is required.</ListItem>
         <ListItem>Airlines may have temperature restrictions for both departure and arrival.</ListItem>
       </List>
