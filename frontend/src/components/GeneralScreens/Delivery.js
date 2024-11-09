@@ -70,7 +70,7 @@ const Delivery = () => {
       </Paragraph>
       <List>
         <ListItem>
-          Same-day or next-day delivery within the U.K.
+          Same-day or next-day delivery within the U.S.
         </ListItem>
         <ListItem>
           International delivery within 72 hours of departure.
@@ -84,7 +84,7 @@ const Delivery = () => {
 
       <SubTitle>General Airline Requirements</SubTitle>
       <List>
-        <ListItem>The puppy must be at least 4 weeks and 4 days old.</ListItem>
+        <ListItem>The puppy must be at least 6 weeks and 4 days old.</ListItem>
         <ListItem>A veterinarian health/acclimation certificate is required.</ListItem>
         <ListItem>Airlines may have temperature restrictions for both departure and arrival.</ListItem>
       </List>

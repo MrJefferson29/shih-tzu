@@ -10,10 +10,10 @@ function Footer() {
         <Row>
           <Col md={4}>
             <FooterSection>
-              <FooterLogo>Guns Shop</FooterLogo>
+              <FooterLogo>Shih Tzu Puppies 4 Adoption</FooterLogo>
               <FooterDescription>
-                Your trusted source for high-quality firearms and accessories.
-                Explore our wide range of products tailored to meet your needs.
+                Quality bred Shih tzu pupps, ready to find a place in your home, and in your heart
+                contact us, or visit our store to know more about us.
               </FooterDescription>
             </FooterSection>
           </Col>
@@ -48,7 +48,7 @@ function Footer() {
         </Row>
       </Container>
       <FooterBottom>
-        <p>&copy; 2024 Best Online Guns Shop. All rights reserved.</p>
+        <p>&copy; 2024 Shih tzu puppies 4 adoption. All rights reserved.</p>
       </FooterBottom>
     </FooterContainer>
   );
