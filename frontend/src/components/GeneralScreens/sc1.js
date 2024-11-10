@@ -1,39 +1,39 @@
 import React, { useState } from "react";
-import { useNavigate } from 'react-router-dom'; 
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import g1 from "../../Assets/g1.jpg";
-import daisy from '../../Assets/kells1.webp'
-import Ads from './Ads';
-import Sc2 from './Sc2';
+import daisy from "../../Assets/sophie1.jpg";
+import Ads from "./Ads";
+import Sc2 from "./Sc2";
 
 export default function Sc1() {
   const [showMore, setShowMore] = useState(false);
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
   const handleShowMore = () => {
     setShowMore(!showMore);
   };
 
   const categoryMapping = {
-    "RIFLES": "Rifles",
+    RIFLES: "Rifles",
     "AIR GUNS": "Air Guns",
-    "SHOTGUNS": "Shotguns",
-    "ACCESSORIES": "Accessories",
+    SHOTGUNS: "Shotguns",
+    ACCESSORIES: "Accessories",
     "PISTOL / HANDGUNS": "Pistols",
-    "AMMUNITION": "Ammunition",
-    "DEACTIVATED": "Deactivated",
-    "BLADES": "Blades",
+    AMMUNITION: "Ammunition",
+    DEACTIVATED: "Deactivated",
+    BLADES: "Blades",
     "OTHER GUNS": "Other Guns",
     "GUN DOGS": "Gun Dogs",
-    "REPLICA": "Replica",
+    REPLICA: "Replica",
     "BOWS & CROSSBOWS": "Bows & Crossbows",
-    "WANTED": "Wanted",
-    "SERVICES": "Services"
+    WANTED: "Wanted",
+    SERVICES: "Services"
   };
 
   const handleProductClick = (productName) => {
     const categoryName = categoryMapping[productName];
-    navigate(`/all-guns?category=${encodeURIComponent(categoryName)}`); 
+    navigate(`/all-guns?category=${encodeURIComponent(categoryName)}`);
   };
 
   return (
@@ -42,11 +42,13 @@ export default function Sc1() {
         <div className="ad-wrap">
           <div className="ad">Ad of the week!</div>
           <div className="ad-content">
-            <h2 className="ad-title">Kells</h2>
+            <h2 className="ad-title">Sophie</h2>
             <p className="ad-description">
-            Kells is a charming and lively Shih Tzu with a lot of energy. He loves to explore and is always up for some fun. Kells will make a wonderful companion for any family looking for a playful and loving pet.
+              Sohie's spirit just lights up the hearts of all who have known
+              her. she is a quiet one, although she is full of energy and is
+              always excited to play or have a good time with almost anyone.
             </p>
-            <div className="ad-price">$1,450</div>
+            <div className="ad-price">$ 800</div>
           </div>
         </div>
       </section>
@@ -65,7 +67,7 @@ const ProductItem = styled.div`
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;
   transition: box-shadow 0.3s ease;
-  max-width: 100%; 
+  max-width: 100%;
   cursor: pointer;
 
   &:hover {
@@ -98,7 +100,8 @@ const ProductItem = styled.div`
 `;
 
 const Styles = styled.div`
-  body, html {
+  body,
+  html {
     overflow-x: hidden;
   }
 
@@ -114,7 +117,7 @@ const Styles = styled.div`
     align-items: center;
     overflow: hidden;
   }
-  
+
   .ad-wrap {
     background: rgba(0, 0, 0, 0.5);
     padding: 2rem;
