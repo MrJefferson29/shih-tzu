@@ -7,7 +7,6 @@ const DeliverySection = styled.section`
   color: #333;
   font-family: 'Arial', sans-serif;
 `;
-
 const SectionTitle = styled.h2`
   font-size: 2rem;
   font-weight: bold;
@@ -15,13 +14,11 @@ const SectionTitle = styled.h2`
   color: #4a90e2;
   text-align: center;
 `;
-
 const Paragraph = styled.p`
   font-size: 1rem;
   line-height: 1.8;
   margin-bottom: 15px;
 `;
-
 const SubTitle = styled.h3`
   font-size: 1.5rem;
   font-weight: 600;
@@ -29,30 +26,25 @@ const SubTitle = styled.h3`
   margin-top: 20px;
   margin-bottom: 10px;
 `;
-
 const List = styled.ul`
   list-style-type: none;
   padding-left: 0;
   margin-bottom: 20px;
 `;
-
 const ListItem = styled.li`
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 10px;
-
   &:before {
     content: '✔';
     color: #4a90e2;
     margin-right: 10px;
   }
 `;
-
 const Highlight = styled.span`
   color: #4a90e2;
   font-weight: bold;
 `;
-
 const Delivery = () => {
   return (
     <DeliverySection>
@@ -81,20 +73,17 @@ const Delivery = () => {
         Delivery costs vary based on your location. Please be aware that delays may occur due to
         weather or other unforeseen circumstances.
       </Paragraph>
-
       <SubTitle>General Airline Requirements</SubTitle>
       <List>
-        <ListItem>The puppy must be at least 8 weeks and 4 days old.</ListItem>
+        <ListItem>The puppy must be at least 8 weeks old.</ListItem>
         <ListItem>A veterinarian health/acclimation certificate is required.</ListItem>
         <ListItem>Airlines may have temperature restrictions for both departure and arrival.</ListItem>
       </List>
-
       <SubTitle>Cost of Shipping</SubTitle>
       <Paragraph>
         Shipping costs depend on several factors including the veterinarian certificate, the travel
         kennel size, and airfreight charges which are based on the puppy's weight and crate size.
       </Paragraph>
-
       <SubTitle>Information Needed for Shipping</SubTitle>
       <Paragraph>
         If you decide to have your puppy shipped, we will need the following information:
@@ -107,7 +96,6 @@ const Delivery = () => {
         <ListItem>Your county and preferred airport</ListItem>
         <ListItem>The name of the puppy you’re interested in</ListItem>
       </List>
-
       <SubTitle>Safe and Comfortable Shipping Process</SubTitle>
       <Paragraph>
         Shipping your puppy may seem concerning, but we ensure that the process is safe and
@@ -118,5 +106,4 @@ const Delivery = () => {
     </DeliverySection>
   );
 };
-
 export default Delivery;

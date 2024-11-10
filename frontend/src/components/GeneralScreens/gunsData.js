@@ -87,6 +87,9 @@ import corey from '../../Assets/corey.webp'
 import ruby1 from '../../Assets/ruby1.webp'
 import ruby2 from '../../Assets/ruby2.webp'
 import ruby3 from '../../Assets/ruby3.webp'
+import sophie1 from '../../Assets/sophie1.jpg'
+import sophie2 from '../../Assets/sophie2.jpg'
+import angel from '../../Assets/angel.jpg'
 
 
 // do not change to anything else
@@ -103,6 +106,18 @@ const gunsData = [
     images: [jodi1, jodi2, jodi3]
   },
   {
+    name: "Sophie",
+    category: "Boosted",
+    sex: "Female",
+    age: "8 weeks",
+    views: "81",
+    price: "$ 800",
+    certificate: "Verified Breeder",
+    description: `Sohie's spirit just lights up the hearts of all who have known her.
+    she is a quiet one, although she is full of energy and is always excited to play or have a good time with almost anyone.`,
+    images: [sophie1, sophie2, sophie1, sophie2]
+  },
+  {
     name: "Maxie",
     category: "Boosted",
     sex: "Male",
@@ -112,6 +127,18 @@ const gunsData = [
     certificate: "KC Verified",
     description:"Maxie is a charming little Shih Tzu who loves to play and cuddle. He is always full of energy and ready for new adventures. Maxie is looking for a loving home where he can bring joy and smiles every day.",
     images: [shih1,shih1,shih1,shih1]
+  },
+  {
+    name: "Angel",
+    category: "Boosted",
+    sex: "Female",
+    age: "8 weeks",
+    views: "78",
+    price: "$ 800",
+    certificate: "Verified Breeder",
+    description: `She has been our chief vetenarian's favourite for a reason, Angel just has a positive energy about her
+    well trained already, and calm during most unexpected moments. Angel likes playing with stuffed toys and rag dolls too`,
+    images: [angel, angel, angel, angel]
   },
   {
     name: "Lola & Buoy",
