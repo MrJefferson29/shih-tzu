@@ -35,7 +35,7 @@ export default function AllGuns() {
   const handleCategoryClick = (selectedCategory) => {
     setCategory(selectedCategory);
     filterGuns(searchTerm, selectedCategory);
-    navigate(`/all-guns?category=${encodeURIComponent(selectedCategory)}`); // Update URL
+    navigate(`/all-pets?category=${encodeURIComponent(selectedCategory)}`); // Update URL
   };
 
   const filterGuns = (term, selectedCategory) => {
@@ -55,7 +55,7 @@ export default function AllGuns() {
     const formattedName = name.replace(/\s+/g, '-').toLowerCase();
     console.log('Card Clicked:', name);  // Log the name
     console.log('Formatted Name:', formattedName);  // Log the formatted name
-    const url = `/gun/${formattedName}`;
+    const url = `/pet/${formattedName}`;
     console.log('Navigating to:', url);  // Log the final URL
     navigate(url);
   };

@@ -33,7 +33,7 @@ function Navbar() {
           <ProductList>
             <ProductItem onClick={() => handleNavigate('/')}>Home</ProductItem>
             <ProductItem onClick={() => handleNavigate('/about')}>About</ProductItem>
-            <ProductItem onClick={() => handleNavigate('/all-guns')}>Available Puppies</ProductItem>
+            <ProductItem onClick={() => handleNavigate('/all-pets')}>Available Puppies</ProductItem>
             <ProductItem onClick={() => handleNavigate('/health-guarantee')}>Health Guarantee</ProductItem>
             <ProductItem onClick={() => handleNavigate('/delivery-options')}>Delivery Options</ProductItem>
             <ProductItem onClick={() => handleNavigate('/purchase-process')}>Purchase Process</ProductItem>

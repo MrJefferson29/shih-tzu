@@ -32,7 +32,7 @@ export default function Header() {
           <div className="icon-wrapper">
             <Link className="link" to="/">Home</Link>
             <Link className="link" to="/about">About</Link>
-            <Link className="link" to="/all-guns">Available Puppies</Link>
+            <Link className="link" to="/all-pets">Available Puppies</Link>
             <Link className="link" to="/health-guarantee">Health Guarantee</Link>
             <Link className="link" to="/delivery-options">Delivery Options</Link>
             <Link className="link" to="/purchase-process">Purchase Process</Link>

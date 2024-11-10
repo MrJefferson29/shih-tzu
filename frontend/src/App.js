@@ -34,8 +34,8 @@ const App = () => {
             <Route path="story/:slug/edit" element={<PrivateRoute><EditStory /></PrivateRoute>} />
             <Route path="story/:slug/delete" element={<PrivateRoute><DetailStory /></PrivateRoute>} />
             <Route path="story/:slug/addComment" element={<PrivateRoute><DetailStory /></PrivateRoute>} />
-            <Route path="all-guns" element={<AllGuns />} />
-            <Route path="gun/:name" element={<GunDetails />} />
+            <Route path="all-pets" element={<AllGuns />} />
+            <Route path="pet/:name" element={<GunDetails />} />
             <Route path="privacy-policy" element={<PrivacyPolicy />} />
             <Route path="about" element={<About />} />
             <Route path='health-guarantee' element={<Health />} />

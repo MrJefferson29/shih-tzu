@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
-import g1 from "../../Assets/g1.jpg";
 import daisy from "../../Assets/sophie1.jpg";
 import Ads from "./Ads";
 import Sc2 from "./Sc2";
