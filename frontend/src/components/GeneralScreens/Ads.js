@@ -38,7 +38,7 @@ export default function Ads() {
       </Row>
       <div className="view-all-container">
         <button
-          onClick={() => navigate('/all-guns')}
+          onClick={() => navigate('/all-pets')}
           className="view-all-button"
         >
           View All Pupps

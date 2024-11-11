@@ -50,7 +50,7 @@ export default function GunDetails() {
     return (
       <GunNotFoundStyles>
         <h2>Gun not found</h2>
-        <Link to="/guns" className="back-link">
+        <Link to="/all-pets" className="back-link">
           Go back to listings
         </Link>
       </GunNotFoundStyles>
@@ -128,7 +128,7 @@ export default function GunDetails() {
             {relatedGuns.map((relatedGun, index) => (
               <Link
                 key={index}
-                to={`/gun/${relatedGun.name
+                to={`/pet/${relatedGun.name
                   .replace(/\s+/g, "-")
                   .toLowerCase()}`}
                 className="related-gun-card"
