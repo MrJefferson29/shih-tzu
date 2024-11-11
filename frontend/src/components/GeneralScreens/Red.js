@@ -9,7 +9,7 @@ const Red = () => {
   const navigate = useNavigate();
 
   const handleRegister = () => {
-    navigate("/all-guns");
+    navigate("/all-pets");
   };
 
   const handleLogin = () => {

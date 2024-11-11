@@ -100,7 +100,7 @@ const gunsData = [
     sex: "Female",
     age: "8 weeks",
     views: "78",
-    price: "$ 1,600",
+    price: "$ 700",
     certificate: "KC Verified",
     description: `Jodi is a bright, playful Shih Tzu with an affectionate nature. She loves cuddles and enjoys playing with her family. Jodi will make a great companion for any home.`,
     images: [jodi1, jodi2, jodi3]
@@ -123,7 +123,7 @@ const gunsData = [
     sex: "Male",
     age: "9 weeks",
     views: "34",
-    price: "$ 1,200",
+    price: "$ 700",
     certificate: "KC Verified",
     description:"Maxie is a charming little Shih Tzu who loves to play and cuddle. He is always full of energy and ready for new adventures. Maxie is looking for a loving home where he can bring joy and smiles every day.",
     images: [shih1,shih1,shih1,shih1]
@@ -146,7 +146,7 @@ const gunsData = [
     sex: "Female & Male",
     age: "9 weeks",
     views: "92",
-    price: "$ 4,000",
+    price: "$ 1,000",
     certificate: "KC Verified",
     description: `Lola and Buoy are the remaining two from their batch. They love
      playing together, and will provide the home with a lot of energy and good memories`,
@@ -158,7 +158,7 @@ const gunsData = [
     sex: "Male",
     age: "8 weeks",
     views: "29",
-    price: "$ 1,200",
+    price: "$ 900",
     certificate: "KC Verified",
     description: `Dan is a playful and confident Shih Tzu with a heart of gold. 
     He enjoys long walks and playtime, but he also loves curling up with his favorite 
@@ -182,7 +182,7 @@ const gunsData = [
     sex: "Female",
     age: "9 weeks",
     views: "43",
-    price: "$ 1,500",
+    price: "$ 900",
     certificate: "KC Verified",
     description: "Shi Shi is a sweet and affectionate little girl who is sure to melt your heart. She loves being around people and is always ready for cuddles and playtime.",
     images: [shih3, shih3, shih3, shih3]
@@ -193,7 +193,7 @@ const gunsData = [
     sex: "Female",
     age: "8 weeks",
     views: "65",
-    price: "$ 1,500",
+    price: "$ 700",
     certificate: "Verified Breeder",
     description: `"Kya is a gentle and loving Shih Tzu who enjoys being spoiled.
      She is affectionate, smart, and always wants to be by your side. Kya is looking
@@ -206,7 +206,7 @@ const gunsData = [
     sex: "Male",
     age: "8 weeks",
     views: "12",
-    price: "$ 1,000",
+    price: "$ 600",
     certificate: "KC Verified",
     description: `Blu is a bold and energetic Shih Tzu with a big personality. He loves
      exploring and meeting new people, making him the perfect companion for an active family.
@@ -220,7 +220,7 @@ const gunsData = [
     sex: "Male",
     age: "10 weeks",
     views: "12",
-    price: "$ 1,500",
+    price: "$ 600",
     certificate: "Verified Breeder",
     description: `Lottie is a playful, friendly Shih Tzu with a great personality.
      He is full of energy and loves to make people smile with his playful antics.`,
@@ -233,7 +233,7 @@ const gunsData = [
     sex: "Female",
     age: "10 weeks",
     views: "48",
-    price: "$ 1,600",
+    price: "$ 700",
     certificate: "Verified Breeder",
     description: `Daisy is a gentle and loving Shih Tzu who enjoys being spoiled.
      She is affectionate, smart, and always wants to be by your side. Daisy is 
@@ -248,7 +248,7 @@ const gunsData = [
     sex: "Female",
     age: "10 weeks",
     views: "47",
-    price: "$ 1,300",
+    price: "$ 600",
     certificate: "KC Verified",
     description: `Julie is a curious and friendly little Shih Tzu who loves to explore.
      She has an inquisitive nature and always wants to know what’s going on around her.
@@ -261,7 +261,7 @@ const gunsData = [
     sex: "Female",
     age: "12 weeks",
     views: "45",
-    price: "$ 1,000",
+    price: "$ 900",
     certificate: "Verified Breeder",
     description: `Mama is a charming Shih Tzu who has a big heart and a lot of love to give.
      She’s a little bundle of joy who thrives in social environments and loves being around 
@@ -274,7 +274,7 @@ const gunsData = [
     sex: "Male",
     age: "8 weeks",
     views: "86",
-    price: "$ 3,000",
+    price: "$ 600",
     certificate: "KC Verified",
     description: `Little Bishop with the biggest heart, cute and adorable pupp ready
      to be loved and shower love to whatever family would welcome him`,
@@ -286,7 +286,7 @@ const gunsData = [
     sex: "Female",
     age: "12 weeks",
     views: "45",
-    price: "$ 1,000",
+    price: "$ 900",
     certificate: "Verified Breeder",
     description: `Mama is a charming Shih Tzu who has a big heart and a lot of love to give.
      She’s a little bundle of joy who thrives in social environments and loves being around 
@@ -300,7 +300,7 @@ const gunsData = [
     sex: "Male",
     age: "8 weeks",
     views: "65",
-    price: "$ 1,100",
+    price: "$ 700",
     certificate: "KC Verified",
     description: `Lucky is a curious and friendly Shih Tzu who loves exploring his surroundings.
      He has a playful nature and would be a wonderful addition to any household.`,
@@ -313,7 +313,7 @@ const gunsData = [
     sex: "Female",
     age: "8 weeks",
     views: "43",
-    price: "$ 1,400",
+    price: "$ 600",
     certificate: "Verified Breeder",
     description: `Olga has a joyful personality and is full of energy. She is already
      comfortable around kids and would make a fun-loving family pet.`,
@@ -325,7 +325,7 @@ const gunsData = [
     sex: "Female",
     age: "15 weeks",
     views: "55",
-    price: "$ 2,000",
+    price: "$ 800",
     certificate: "KC Verified",
     description: `Sheila is a friendly and playful Shih Tzu with a lot of love to give. She has a curious nature and enjoys socializing with other pets and humans alike. Sheila is ready to become part of a loving family.`,
     images: [sheila1, sheila2, sheila1, sheila2]
@@ -336,7 +336,7 @@ const gunsData = [
     sex: "Male",
     age: "10 weeks",
     views: "67",
-    price: "$ 1,300",
+    price: "$ 800",
     certificate: "KC Verified",
     description: `Caesar is a confident and spirited Shih Tzu who loves attention. He’s playful and affectionate, always ready for some fun. Caesar will make an excellent addition to an active family.`,
     images: [caesar1, caesar2, caesar3]
@@ -347,7 +347,7 @@ const gunsData = [
     sex: "Male",
     age: "9 weeks",
     views: "89",
-    price: "$ 1,800",
+    price: "$ 700",
     certificate: "KC Verified",
     description: `David is a charming and happy Shih Tzu with a love for adventure. He enjoys spending time with people and has a fun, loving nature. David is ready to meet his new family.`,
     images: [david, david1, david2]
@@ -358,7 +358,7 @@ const gunsData = [
     sex: "Female",
     age: "11 weeks",
     views: "58",
-    price: "$ 1,400",
+    price: "$ 800",
     certificate: "Verified Breeder",
     description: `Petra is a playful and friendly Shih Tzu who loves attention. She has a curious and energetic personality, making her a great companion for a family who enjoys playtime and outdoor adventures.`,
     images: [petra, petra1, petra, petra1]
@@ -369,7 +369,7 @@ const gunsData = [
     sex: "Female",
     age: "11 weeks",
     views: "72",
-    price: "$ 1,200",
+    price: "$ 700",
     certificate: "KC Verified",
     description: `Molly is a sweet and gentle Shih Tzu who loves to cuddle. She has a calm and affectionate demeanor, making her the perfect companion for any family looking for a loving pet.`,
     images: [molly1, molly2, molly1, molly2]
@@ -380,7 +380,7 @@ const gunsData = [
     sex: "Male",
     age: "10 weeks",
     views: "93",
-    price: "$ 1,500",
+    price: "$ 800",
     certificate: "KC Verified",
     description: `Archie is a playful and energetic Shih Tzu. He loves to play and run around but also enjoys snuggling up to his favorite humans. He’s looking for a family to share his happiness with.`,
     images: [arch1, arch2, arch1, arch2]
@@ -391,7 +391,7 @@ const gunsData = [
     sex: "Male",
     age: "10 weeks",
     views: "60",
-    price: "$ 1,350",
+    price: "$ 600",
     certificate: "KC Verified",
     description: `George is a lively and charming Shih Tzu who loves to explore and discover new things. He enjoys spending time with people and will make a perfect addition to an active family.`,
     images: [george1, george2, george1, george2]
@@ -402,7 +402,7 @@ const gunsData = [
     sex: "Female",
     age: "12 weeks",
     views: "56",
-    price: "$ 1,400",
+    price: "$ 600",
     certificate: "Verified Breeder",
     description: `Tusa is a sweet, affectionate Shih Tzu who loves attention. She enjoys playing with others and will quickly adapt to her new family. Tusa is sure to bring happiness and love to any home.`,
     images: [tusa1, tusa2, tusa1, tusa2]
@@ -413,7 +413,7 @@ const gunsData = [
     sex: "Male",
     age: "10 weeks",
     views: "65",
-    price: "$ 1,600",
+    price: "$ 700",
     certificate: "Verified Breeder",
     description: `Orlan is a spirited and fun-loving Shih Tzu. He enjoys playing and being around people. He’s the perfect companion for a family who enjoys being active and spending time outdoors.`,
     images: [orlan1, orlan2, orlan1, orlan2]
@@ -435,7 +435,7 @@ const gunsData = [
     sex: "Female",
     age: "12 weeks",
     views: "80",
-    price: "$ 1,700",
+    price: "$ 800",
     certificate: "KC Verified",
     description: `Kara is a playful and affectionate Shih Tzu who loves being the center of attention. She has a friendly personality and enjoys spending time with everyone. Kara is ready for her new family to adore her.`,
     images: [kara1, kara2, kara1, kara2]
@@ -446,7 +446,7 @@ const gunsData = [
     sex: "Male",
     age: "14 weeks",
     views: "73",
-    price: "$ 1,450",
+    price: "$ 900",
     certificate: "Verified Breeder",
     description: `Kells is a charming and lively Shih Tzu with a lot of energy. He loves to explore and is always up for some fun. Kells will make a wonderful companion for any family looking for a playful and loving pet.`,
     images: [kells1, kells2, kells3]
@@ -457,7 +457,7 @@ const gunsData = [
     sex: "Female",
     age: "10 weeks",
     views: "61",
-    price: "$ 1,600",
+    price: "$ 600",
     certificate: "Verified Breeder",
     description: `Stunner is a delightful Shih Tzu with a playful and friendly personality. She loves attention and enjoys spending time with her family. Stunner will make a perfect pet for any home.`,
     images: [stunner1, stunner2, stunner1, stunner2]
@@ -468,7 +468,7 @@ const gunsData = [
     sex: "Female",
     age: "12 weeks",
     views: "85",
-    price: "$ 1,400",
+    price: "$ 700",
     certificate: "KC Verified",
     description: `Darling is a gentle and affectionate Shih Tzu who loves being spoiled. She enjoys cuddling and has a sweet, loving nature. Darling is ready to join a family who will cherish her.`,
     images: [darling1, darling2, darling1, darling2]
@@ -479,7 +479,7 @@ const gunsData = [
     sex: "Female",
     age: "15 weeks",
     views: "90",
-    price: "$ 1,500",
+    price: "$ 700",
     certificate: "Verified Breeder",
     description: `Miel is a fun-loving Shih Tzu with a sweet and affectionate personality. She loves attention and playtime, and she’s ready to find a family who will shower her with love.`,
     images: [miel1, miel2, miel3]
@@ -490,7 +490,7 @@ const gunsData = [
     sex: "Female",
     age: "15 weeks",
     views: "72",
-    price: "$ 1,700",
+    price: "$ 600",
     certificate: "KC Verified",
     description: `Coco is a playful and energetic Shih Tzu with a fun-loving nature. She enjoys meeting new people and will bring joy to any household. Coco is looking for a family that will appreciate her cheerful disposition.`,
     images: [coco1, coco2, coco3, coco4]
@@ -512,7 +512,7 @@ const gunsData = [
     sex: "Male",
     age: "9 weeks",
     views: "82",
-    price: "$ 1,800",
+    price: "$ 500",
     certificate: "Verified Breeder",
     description: `Olie is a sweet and lively Shih Tzu who loves to explore. He’s an affectionate companion who will make a wonderful addition to a family looking for a playful and loving pet.`,
     images: [olie1, olie2, olie3, olie4]
@@ -524,7 +524,7 @@ const gunsData = [
     sex: "Male",
     age: "15 weeks",
     views: "45",
-    price: "$ 1,400",
+    price: "$ 800",
     certificate: "Verified Breeder",
     description: `Corey is a playful and affectionate Shih Tzu with a bright, happy personality. He loves to explore and is always up for an adventure. Corey will make a wonderful companion for an active family.`,
     images: [corey, corey, corey, corey]
@@ -535,7 +535,7 @@ const gunsData = [
     sex: "Female",
     age: "10 weeks",
     views: "58",
-    price: "$ 1,600",
+    price: "$ 600",
     certificate: "KC Verified",
     description: `Ruby is a sweet and loving Shih Tzu with a gentle temperament. She loves cuddles and enjoys spending time with her family. Ruby will make a perfect addition to any home looking for a loving companion.`,
     images: [ruby1, ruby2, ruby3, ruby2]
