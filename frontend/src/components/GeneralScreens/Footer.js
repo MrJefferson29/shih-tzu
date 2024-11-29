@@ -22,7 +22,7 @@ function Footer() {
               <FooterTitle>Quick Links</FooterTitle>
               <FooterLink href="/about">About Us</FooterLink>
               <FooterLink href="/contact-us">Contact Us</FooterLink>
-              <FooterLink href="/all-guns">Services</FooterLink>
+              <FooterLink href="/delivery-options">Services</FooterLink>
               <FooterLink href="/delivery-options">Delivery Options</FooterLink>
             </FooterSection>
           </Col>
