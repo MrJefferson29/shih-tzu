@@ -1,6 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
+// --- Constants (Defined outside the component for clarity) ---
+const RECIPIENT_EMAIL = "shihtzupuppyforadoption@gmail.com";
+const MAILTO_URL = `mailto:${RECIPIENT_EMAIL}?subject=Contact%20Us%20Inquiry&body=Hello%20Team,%0D%0A%0D%0AI'm%20interested%20in%20learning%20more%20about%20your%20services.%0D%0A%0D%0AThank%20you,%0D%0A[Your%20Name]`;
+
+
+// --- Styled Components ---
+
 // Container for the entire contact us page
 const ContactUsContainer = styled.div`
   display: flex;
@@ -83,10 +90,28 @@ const EmailButton = styled.button`
   }
 `;
 
-// Open the email client with a pre-filled message
+// New Component: Email Address Display (for copy/paste)
+const EmailAddress = styled.a`
+  display: block;
+  font-size: 16px;
+  color: #7f8c8d;
+  margin-top: 15px;
+  text-decoration: none;
+  &:hover {
+    color: #3498db;
+    text-decoration: underline;
+  }
+`;
+
+// --- Event Handler ---
+
+// Open the email client with a pre-filled mailto link
 const handleEmailClick = () => {
-  window.location.href = "shihtzupuppyforadoption@gmail.com?subject=Contact%20Us&body=Hello%20CSP,%0D%0A%0D%0AI'm%20interested%20in%20learning%20more%20about%20your%20services.%0D%0A%0D%0AThank%20you,%0D%0A[Your%20Name]";
+  // CORRECTED: Uses the MAILTO_URL constant which includes the 'mailto:' protocol
+  window.location.href = MAILTO_URL;
 };
+
+// --- Component ---
 
 const Contact = () => {
   return (
@@ -97,6 +122,10 @@ const Contact = () => {
           We'd love to hear from you! Please feel free to get in touch using the button below, and we will get back to you as soon as possible.
         </Description>
         <EmailButton onClick={handleEmailClick}>Send Email</EmailButton>
+        {/* New Element: Displays the email address for better UX */}
+        <EmailAddress href={MAILTO_URL}>
+            Or email us directly at: {RECIPIENT_EMAIL}
+        </EmailAddress>
       </ContactBox>
     </ContactUsContainer>
   );
